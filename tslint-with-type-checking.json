@@ -1,0 +1,12 @@
+{
+    "extends": "./tslint.json",
+    "rules": {
+      "no-floating-promises": true
+    },
+    "linterOptions": {
+        "exclude": [
+            "src/serviceWorker.ts",
+            "src/index.tsx"
+        ]
+    }
+  }
